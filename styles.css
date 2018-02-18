@@ -3,6 +3,7 @@
 @import 'https://fonts.googleapis.com/css?family=Merriweather:900';
 @import 'https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet';
 @import 'https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet';
+@import 'https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet';
 
 
 html, body{
@@ -214,7 +215,7 @@ html, body{
 .character p{
 	text-align: center;
 	color: #FFF;
-	font-family: 'Merriweather', serif;
+	font-family: 'Mukta Mahee', sans-serif;
 	font-size: 130%;
 	line-height: 2.0;
 }
