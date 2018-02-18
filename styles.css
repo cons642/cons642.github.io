@@ -244,7 +244,7 @@ footer p{
 }
 
 .social{
-	padding-right: 4%;
+	padding-right: 3%;
 }
 
 .social li {
@@ -349,6 +349,9 @@ footer.second p {
 	.character p{
 		font-size: 100%;
 		padding: 0% 10% 0% 10%;
+	}
+	.social{
+		padding-right: 1%;
 	}
 
 	footer h2{
