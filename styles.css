@@ -1,0 +1,349 @@
+@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display+SC:900';
+@import 'https://fonts.googleapis.com/css?family=Merriweather:900';
+@import 'https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet';
+@import 'https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet';
+
+
+html, body{
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+}
+
+.cover{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('img/jcpic.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+
+.cover p{
+	font-family: 'Kaushan Script', cursive;
+	color: #FFF;
+	font-size: 300%;
+	text-align: center;
+	padding: 13% 20% 0 0;
+}
+
+.cover h1{
+	font-family: 'Merriweather', serif;
+	font-size: 350%;
+	color: #FFF;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0px 0px 400px #000;
+}
+
+.about{
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+	padding-top: 2%;
+	overflow: hidden;
+}
+
+.about h2{
+	font-size: 150%;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	padding-bottom: 2%;
+	color: #333;
+	font-weight: 700;
+}
+
+.about article{
+	width: 35%;
+	padding: 6% 0 7% 9%;
+	height: auto;
+	float: left;
+	background-color: #F2F2F2;
+}
+
+.about article p{
+	font-size: 125%;
+	font-family: 'Quicksand', sans-serif;
+	color: #595959;
+	font-weight: 200;
+	margin: auto;
+}
+
+.about aside{
+	width: 36%;
+	padding: 2% 7% 5% 3%;
+	height: auto;
+	float: left;
+	background-color: #F2F2F2;
+}
+
+
+.work{
+	max-width: 100%;
+	height: auto;
+	background-color: #FFF;
+	padding: 2% 0 5% 2%;
+	overflow: hidden;
+}
+
+.work h2{
+	font-size: 150%;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	padding-bottom: 2%;
+	color: #000;
+	font-weight: 700;
+}
+.wcontainer-3{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.wcontainer-2{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.wcontainer-1{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.work aside{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+.work article{
+	width: 60%;
+	height: auto;
+	float: left;
+}
+
+.work article h3{
+	font-family: 'Roboto', sans-serif;
+	color: #1a75ff;
+
+}
+
+.work article h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #262626;
+}
+
+.work aside img{
+	padding: 3% 10% 10% 22%;
+	width: 70%;
+	height: auto;
+}
+
+.work-desc p{
+	font-family: 'Quicksand', sans-serif;
+	color: #737373;
+	padding-right: 25%;
+	line-height: 1.3;
+}
+
+/*
+
+.character{
+	height: 100%;
+	position: relative;
+
+}
+
+.character img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.character:after{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	content: "";
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(top, rgba(53, 92, 125, 0.61) 0%, rgba(123, 100, 128, 0.61) 50%, rgba(192, 108, 132, 0.65) 100%);
+    background: -o-linear-gradient(top, rgba(53, 92, 125, 0.61) 0%, rgba(123, 100, 128, 0.61) 50%, rgba(192, 108, 132, 0.65) 100%);
+    background: -ms-linear-gradient(top, rgba(53, 92, 125, 0.61) 0%, rgba(123, 100, 128, 0.61) 50%, rgba(192, 108, 132, 0.65) 100%);
+    background: -moz-linear-gradient(top, rgba(53, 92, 125, 0.61) 0%, rgba(123, 100, 128, 0.61) 50%, rgba(192, 108, 132, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(53, 92, 125, 0.61) 0%, rgba(123, 100, 128, 0.61) 50%, rgba(192, 108, 132, 0.65) 100%);
+}
+
+.chardesc{
+	position: absolute;
+	color: #000;
+	top: 50%;
+	left: 50%;
+}
+
+*/
+
+.character{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('img/cityedit.jpg') no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+
+.character h1{
+	text-align: center;
+	color: #FFF;
+	padding-top: 2%;
+	font-family: 'Merriweather', serif;
+	font-size: 180%;
+	font-weight: 700;
+	text-shadow: 0px 0px 400px #000;
+}
+
+.character p{
+	text-align: center;
+	color: #FFF;
+	font-family: 'Merriweather', serif;
+	font-size: 130%;
+	line-height: 2.0;
+}
+
+.social{
+	list-style: none;
+	text-align: center;
+}
+
+#outro{
+	padding-top: 1%;
+}
+
+footer h2{
+	font-size: 150%;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	color: #333;
+	font-weight: 700;
+}
+
+footer p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: #737373;
+}
+
+.social li {
+	display: inline;
+}
+
+.social i {
+	font-size: 550%;
+	padding: 5% 2% 5% 2%;
+	color: #0052cc;
+}
+
+.social i:hover {
+	color: #1a75ff;
+}
+
+/*--Footer--*/
+
+footer.second {
+	background-color: #2C2C2C;
+}
+
+footer.second p {
+	font-size: 180%;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFF;
+	text-align: center;
+	padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+	.cover p{
+		font-size: 150%;
+		padding-top: 35%;
+	}
+
+	.cover h1{
+		font-size: 180%;
+		padding-top: 5%;
+	}
+	
+	.about h2{
+		font-size: 135%;
+	}
+
+	.about article{
+		width: 100%;
+	}
+
+	.about article p{
+		padding-right: 20%;
+		font-size: 110%;
+		margin: auto;
+	}
+
+	.about aside{
+		width: 100%;
+	}
+
+	.about aside img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.wcontainer-3{
+		width: 100%;
+		height: auto;
+		display: block;
+		}
+
+	.wcontainer-2{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.wcontainer-1{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.work aside{
+		width: 100%;
+	}
+
+	.work article{
+		width: 100%;
+		padding-left: 15%;
+	}
+
+	.character h1{
+		font-size: 140%;
+	}
+	
+	.character p{
+		font-size: 110%;
+	}
+
+	footer h2{
+		font-size: 120%;
+	}
+
+	footer p{
+		font-size: 80%;
+	}
+}
