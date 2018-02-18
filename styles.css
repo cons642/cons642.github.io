@@ -242,6 +242,10 @@ footer p{
 	color: #737373;
 }
 
+.social{
+	padding-right: 3%;
+}
+
 .social li {
 	display: inline;
 }
