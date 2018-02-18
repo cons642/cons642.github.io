@@ -51,14 +51,14 @@ html, body{
 	font-size: 150%;
 	font-family: 'Merriweather', serif;
 	text-align: center;
-	padding-bottom: 2%;
+	padding-bottom: 0%;
 	color: #333;
 	font-weight: 700;
 }
 
 .about article{
 	width: 35%;
-	padding: 6% 0 7% 9%;
+	padding: 2% 0 7% 9%;
 	height: auto;
 	float: left;
 	background-color: #F2F2F2;
@@ -273,7 +273,8 @@ footer.second p {
 @media screen and (max-width: 768px) {
 	.cover p{
 		font-size: 150%;
-		padding-top: 35%;
+		padding-top: 55%;
+		padding-right: 25%;
 	}
 
 	.cover h1{
@@ -282,7 +283,8 @@ footer.second p {
 	}
 	
 	.about h2{
-		font-size: 135%;
+		font-size: 150%;
+		padding: 0% 10% 0 10%;
 	}
 
 	.about article{
@@ -300,7 +302,7 @@ footer.second p {
 	}
 
 	.about aside img{
-		max-width: 100%;
+		width: 95%;
 		height: auto;
 	}
 
@@ -323,7 +325,11 @@ footer.second p {
 	}
 
 	.work aside{
-		width: 100%;
+		width: 90%;
+	}
+	
+	.work h4{
+		padding-right:20%;
 	}
 
 	.work article{
@@ -336,14 +342,16 @@ footer.second p {
 	}
 	
 	.character p{
-		font-size: 110%;
+		font-size: 100%;
 	}
 
 	footer h2{
 		font-size: 120%;
+		padding: 0% 8% 0% 8%;
 	}
 
 	footer p{
 		font-size: 80%;
+		padding: 0% 10% 20% 10%;
 	}
 }
